@@ -1,0 +1,19 @@
+:root {
+    --header-font-family: 'Playfair Display', serif;
+    --paragraph-font-family: 'Montserrat', sans-serif;
+    --primary-color: #b27bc1;
+    --secondary-color: #5c93c1;
+    --tertiary-color: #5f9e78;
+    --lowkey-color: #999;
+    --background-color: #eeeeee;
+    --font-color: #111111;
+}
+
+[data-theme="dark-mode"] {
+    --primary-color: #D7A9E3FF;
+    --secondary-color: #8BBEE8FF;
+    --tertiary-color: #A8D5BAFF;
+    --lowkey-color: #bbb;
+    --background-color: #111111;
+    --font-color: #ffffff;
+}

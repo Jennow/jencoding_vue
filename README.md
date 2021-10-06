@@ -1,4 +1,4 @@
-# jencoding_vue
+# jencoding
 
 ## Project setup
 ```
