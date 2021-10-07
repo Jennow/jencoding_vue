@@ -16,7 +16,7 @@ import IntroPage from "./components/IntroPage";
 import WorkPage from "./components/WorkPage";
 
 import LoadingScreen from "./components/LoadingScreen";
-const axios = require('axios');
+// const axios = require('axios');
 
 export default {
   name: 'App',
@@ -37,21 +37,17 @@ export default {
   mounted() {
     let localTheme = localStorage.getItem('theme');
     if (!localTheme) {
-      let lat  = 53.550052;
-      let long = 9.967203;
 
-      axios.get('https://api.sunrise-sunset.org/json?lat=' + lat + '&lng=' + long + '&formatted=0')
-          .then(response => {
-            console.log(response)
-            let data = response.data
-            let sunriseAt = new Date(data.results.sunrise);
-            let sunsetAt  = new Date(data.results.sunset);
-            let now       = new Date();
+      let now       = new Date();
+      let sunriseAt = new Date();
+      let sunsetAt  = new Date();
 
-            this.darkMode = now.getTime() < sunriseAt.getTime() || now.getTime() > sunsetAt.getTime();
-            document.documentElement.setAttribute('data-theme', this.darkMode ? 'dark-mode' : '');
-            this.loading = false;
-          });
+      sunriseAt.setHours(6, 0, 0);
+      sunsetAt.setHours(18, 0, 0);
+
+      this.darkMode = now.getTime() < sunriseAt.getTime() || now.getTime() > sunsetAt.getTime();
+      document.documentElement.setAttribute('data-theme', this.darkMode ? 'dark-mode' : '');
+      this.loading = false;
     }  else {
       document.documentElement.setAttribute('data-theme', localTheme);
       this.loading = false;
