@@ -1,0 +1,23 @@
+{
+  "h1": "MOIN!",
+  "maincopy": "Ich bin Jeni, <br>Software Entwicklerin aus Hamburg. <br><br>Schön dass Sie da sind.",
+  "description": {
+    "header": "Ich entwickle Websites und Apps",
+    "paragraph": "So ist beispielsweise diese kleine Website mit vue.js entstanden.<br><br><b>Skills</b><br>REST APIs<br>Frontend & Backend<br>Progressive Web Apps<br>Wordpress<br>E-Commerce<br>Games, AR, VR(Unity3D)<br><br><b>Sprachen</b><br>PHP7<br>JavaScript(Angular, React, Vue)<br>SQL(Postgres, MySql)<br><br>"
+  },
+  "contact": {
+    "header": "Kontakt",
+    "paragraph": "Haben Sie eine Frage oder möchten, dass ich etwas für Sie programmiere? <br>Ich freue mich, von Ihnen zu hören.",
+    "name": "Name",
+    "email": "E-Mail Adresse",
+    "message": "Ihre Nachricht",
+    "successHeader": "Danke für Ihre Nachricht!",
+    "successMessage": "Ich werde mich schnellstmöglich bei Ihnen melden",
+    "errorHeader": "Ein Fehler ist aufgetreten",
+    "errorMessage": "Bitte kontaktieren Sie mich direkt unter folgender Adresse: hey[at]jencoding.com"
+  },
+  "work": {
+    "header": "Arbeiten",
+    "paragraph": "Hier sind Beipiele meiner letzten Arbeiten."
+  }
+}

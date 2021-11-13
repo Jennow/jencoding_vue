@@ -16,7 +16,6 @@ import IntroPage from "./components/IntroPage";
 import WorkPage from "./components/WorkPage";
 
 import LoadingScreen from "./components/LoadingScreen";
-// const axios = require('axios');
 
 export default {
   name: 'App',
@@ -36,6 +35,7 @@ export default {
   },
   mounted() {
     let localTheme = localStorage.getItem('theme');
+
     if (!localTheme) {
 
       let now       = new Date();
@@ -50,6 +50,7 @@ export default {
       this.loading = false;
     }  else {
       document.documentElement.setAttribute('data-theme', localTheme);
+      this.darkMode = localTheme === 'dark-mode';
       this.loading = false;
     }
 
@@ -63,7 +64,7 @@ export default {
     switchColor() {
       this.darkMode = !this.darkMode;
       document.documentElement.setAttribute('data-theme', this.darkMode ? 'dark-mode' : '');
-      localStorage.setItem('theme', this.darkMode ? 'dark-mode' : '');
+      localStorage.setItem('theme', this.darkMode ? 'dark-mode' : 'light-mode');
     },
     switchLanguage() {
       this.$i18n.locale = this.$i18n.locale === 'de' ? 'en': 'de';
