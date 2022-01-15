@@ -25,6 +25,17 @@ export default {
     return {
       projects: [
         {
+          title: 'Coworking Explorer',
+          short: 'Progressive Web App with Vue.js and a Page Crawler API',
+          tags: [
+            'Vue',
+            'Google Maps API',
+            'Progresive Web App',
+          ],
+          image: 'coworking-explorer_home.png',
+          url: 'https://coworking-explorer.jencoding.com',  
+        },
+        {
           title: 'bluerizon',
           short: 'Wordpress eCommerce Website',
           tags: [
@@ -36,43 +47,9 @@ export default {
             'CSS',
             'Custom Gutenberg Blocks'
           ],
-          image: 'bluerizon.webp',
+          image: 'bluerizon.png',
           url: 'https://blue-rizon.com/',
         },
-        {
-          title: 'Puzzl3D',
-          short: 'Augmented Reality 3D Puzzle',
-          tags: [
-            'Unity3D',
-            'Blender',
-            'C#',
-            'Vuforia',
-          ],
-          image: 'puzzl3d.webp',
-          url: 'https://www.youtube.com/watch?v=SUzKEtgb2P0',
-        },
-        {
-          title: 'Blackout',
-          short: '2D Side Scroller with Unity3D',
-          tags: [
-            'Unity3D',
-            'C#',
-          ],
-          image: 'blackout.webp',
-          url: 'https://www.youtube.com/embed/AmMQ5QKA19o>',
-        },
-        {
-          title: 'V-Art',
-          short: 'Virtual Reality Connect-The-Dots Gam',
-          tags: [
-            'Unity3D',
-            'C#',
-            'Vuforia',
-            'Blender'
-          ],
-          image: 'vart.webp',
-          url: 'https://www.youtube.com/embed/P2umz5qVCTo',
-        }
         ]
     }
   }
@@ -82,7 +59,7 @@ export default {
 <style :scoped>
 @media screen and (min-width: 560px){
   .projects {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -94,7 +71,8 @@ export default {
 }
 
 .project {
-  height: 250px;
+  height: 50vw;
+  max-height: 400px;
   text-decoration: none;
   transition: ease opacity 0.4s;
   opacity: 1;
@@ -103,6 +81,7 @@ export default {
   box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.29);
   display: block;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .project .background-img {
@@ -119,16 +98,23 @@ export default {
 }
 
 .project h4 {
-  font-size: 1.5em;
+  font-size: 2em;
+  line-height: 1.8em;
   position: relative;
   display: block;
-  padding: 5px 15px;
-  margin-top: -15px;
-  margin-left: 15px;
+  padding: 0px 15px;
+  margin: 20px auto;
+  font-weight: 100;
   width: fit-content;
   border-radius: 50px;
   transition: ease all 0.4s;
-  color: var(--background-color);
+  background-color: var(--primary-color);
+  color: #fff;
+  opacity: 1;
+  mix-blend-mode: darken;
+  box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 20px,
+              rgb(50 50 93 / 25%) 0px 0px 100px 0px,
+              rgb(0 0 0 / 30%) 0px 10px 10px 0px  /* color: var(--background-color); */
 }
 
 .project:hover h4 {
