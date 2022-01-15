@@ -98,8 +98,8 @@ export default {
 }
 
 .project h4 {
-  font-size: 2em;
-  line-height: 1.8em;
+  font-size: 2rem;
+  line-height: 1.8rem;
   position: relative;
   display: block;
   padding: 0px 15px;
