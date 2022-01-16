@@ -102,7 +102,7 @@ export default {
   line-height: 1.8rem;
   position: relative;
   display: block;
-  padding: 0px 15px;
+  padding: 10px 15px;
   margin: 20px auto;
   font-weight: 100;
   width: fit-content;

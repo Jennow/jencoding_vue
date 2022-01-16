@@ -66,7 +66,7 @@ export default {
 
       const response = await axios.request({
             method: 'POST',
-            url: 'https://jencoding.com/contact_form.php',
+            url: 'https://jencoding.com/api/mail',
             data: body
           }
       );
