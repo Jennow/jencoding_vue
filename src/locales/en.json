@@ -1,6 +1,7 @@
 {
-  "h1": "Hello!",
-  "maincopy": "I am Jeni, <br>a Software Developer from Hamburg, Germany. <br><br>Nice to meet you!",
+  "pretext": "Hello, my name is",
+  "h1": "Jenifer Prochnow",
+  "maincopy": "I am a Software Developer from Hamburg, Germany.<br>Nice to meet you!",
   "description": {
     "header": "I develop websites and apps",
     "paragraph": "This little webpage was created using vue.js. <br><br><b>Skills</b><br>REST APIs<br>Frontend & Backend<br>Progressive Web Apps<br>Wordpress<br>E-Commerce<br>Games, AR, VR(Unity3D)<br><br><b>Languages</b><br>PHP7<br>JavaScript(Angular, React, Vue)<br>SQL(Postgres, MySql)<br><br>"
@@ -18,6 +19,17 @@
   },
   "work": {
     "header": "Work",
-    "paragraph": "These are the projects I've been working on recently."
+    "paragraph": "These are the projects I've been working on recently.",
+    "projects": {
+      "pawpal": {
+        "short": "This Get-To-Know App for do owners was inspired by dating apps. Built in functionalities are the classic dating app swipe, the ability to configure own customer profiles, login and bearer authorization as well as a basic chat functionality."
+      },
+      "cwe": {
+        "short": "This app provides a Google Map with over 2000 Coworking Spaces. The API retrieves the data for the markers from the website https://coworkingmap.org with a pagecrawler. The app was deployed to the Google Play Store"
+      },
+      "bluerizon": {
+        "short": "A Wordpress eCommerce Shop with over 1000 different product variaties. I also built custom Gutenberg Blocks for this shop."
+      }
+    }
   }
 }

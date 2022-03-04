@@ -6,14 +6,16 @@
     --tertiary-color: #5f9e78;
     --lowkey-color: #999;
     --background-color: #eeeeee;
+    /* --background-gradient: linear-gradient(to right, #fff, #eee); */
     --font-color: #111111;
 }
 
 [data-theme="dark-mode"] {
-    --primary-color: #D7A9E3FF;
-    --secondary-color: #8BBEE8FF;
+    --primary-color: rgb(215, 169, 227);
+    --secondary-color: #8bbee8;
     --tertiary-color: #A8D5BAFF;
     --lowkey-color: #bbb;
-    --background-color: #111111;
+    --background-color: #1e003a;
     --font-color: #ffffff;
+    --background-gradient: linear-gradient(to right, #bb5e71, #1c2866);
 }

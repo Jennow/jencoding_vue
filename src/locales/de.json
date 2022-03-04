@@ -1,6 +1,7 @@
 {
-  "h1": "MOIN!",
-  "maincopy": "Ich bin Jeni, <br>Software Entwicklerin aus Hamburg. <br><br>Schön dass Sie da sind.",
+  "pretext": "Hallo, mein Name ist",
+  "h1": "Jenifer Prochnow",
+  "maincopy": "Ich bin Software Entwicklerin aus Hamburg. <br>Schön dass Sie da sind.",
   "description": {
     "header": "Ich entwickle Websites und Apps",
     "paragraph": "So ist beispielsweise diese kleine Website mit vue.js entstanden.<br><br><b>Skills</b><br>REST APIs<br>Frontend & Backend<br>Progressive Web Apps<br>Wordpress<br>E-Commerce<br>Games, AR, VR(Unity3D)<br><br><b>Sprachen</b><br>PHP7<br>JavaScript(Angular, React, Vue)<br>SQL(Postgres, MySql)<br><br>"
@@ -18,6 +19,17 @@
   },
   "work": {
     "header": "Arbeiten",
-    "paragraph": "Hier sind Beipiele meiner letzten Arbeiten."
+    "paragraph": "Hier sind Beipiele meiner letzten Arbeiten.",
+    "projects": {
+      "pawpal": {
+        "short": "Diese Kennenlern App für Hundebesitzer wurde von Dating Apps inspiriert. Eingebaute Funktionen sind der klassische Dating App Swipe, die Anlage und Pflege von Kundenprofilen, Login und Bearer Authorisierung sowie das Verschicken von Chat Nachrichten bei erfolgtem Match."
+      },
+      "cwe": {
+        "short": "Diese App enthält eine Google Karte mit über 2000 Markern. Die Marker Daten bezieht die API über einen Page Crawler von der Website https://coworkingmap.org. Die App wurde im Google Play Store deployed."
+      },
+      "bluerizon": {
+        "short": "Ein Wordpress eCommerce Shop mit über 1000 Produktvarianten, den ich eingerichtet habe. Für diesen Shop habe ich eigene Gutenberg Blöcke entwickelt."
+      }
+    }
   }
 }

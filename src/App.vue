@@ -96,13 +96,15 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--font-color);
   background-color: var(--background-color);
+  background-image: var(--background-gradient);
+
   position: absolute;
   top: 0;
   width: 100%;
 }
 h1, h2, h3 {
   font-family: var(--header-font-family);
-  font-size: 6pc;
+  font-size: 4pc;
   margin: 0;
   color: var(--font-color);
 }
@@ -196,7 +198,7 @@ p {
 }
 .content {
   width: 100%;
-  max-width: 900px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
