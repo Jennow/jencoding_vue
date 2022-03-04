@@ -115,8 +115,12 @@ export default {
         position: absolute;
     }
 
-    .project .text p {
-        font-size: 1.1em;
+    .project .text p, .tag {
+        font-size: 1em;
+    }
+
+    .tag {
+        font-size: 0.8em;
     }
 
     .project .img {

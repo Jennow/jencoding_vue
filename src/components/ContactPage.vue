@@ -119,7 +119,7 @@ export default {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid var(--font-color);
+    border: none;    
     border-radius: 4px;
     box-sizing: border-box;
     background: rgba(0,0,0,0.2);
