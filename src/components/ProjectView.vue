@@ -160,6 +160,11 @@ export default {
         object-fit: cover;
         object-position: top;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        opacity: 0.5;
+        transition: opacity ease-in-out 0.3s;
+    }
+    .project .img img:hover {
+        opacity: 1;
     }
 
     .glass {

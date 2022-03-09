@@ -22,7 +22,7 @@
     "paragraph": "These are the projects I've been working on recently.",
     "projects": {
       "pawpal": {
-        "short": "This Get-To-Know App for do owners was inspired by dating apps. Built in functionalities are the classic dating app swipe, the ability to configure own customer profiles, login and bearer authorization as well as a basic chat functionality."
+        "short": "This Get-To-Know App for dog owners was inspired by dating apps. Built in functionalities are the classic dating app swipe, the ability to configure own customer profiles, login and bearer authorization as well as a basic chat functionality."
       },
       "cwe": {
         "short": "This app provides a Google Map with over 2000 Coworking Spaces. The API retrieves the data for the markers from the website https://coworkingmap.org with a pagecrawler. The app was deployed to the Google Play Store"
