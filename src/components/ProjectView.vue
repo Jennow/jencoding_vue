@@ -1,12 +1,12 @@
 <template>
 
     <div class="project">
-        <div class="text">
+        <div  class="text">
             <h3>
                 {{ project.title }}
             </h3>
 
-            <p class="glass">
+            <p v-scrollanimation class="glass">
                 {{ $t('work.projects.' + project.identifier + '.short') }}
             </p>
             <span class="tags">
@@ -16,7 +16,7 @@
             </span>
 
             <div class="links">
-                <a v-for="link in project.links" :key="link" :href="link.url" class="link">
+                <a target="_blank" v-for="link in project.links" :key="link" :href="link.url" class="link">
                     <i v-if="link.type === 'git'" class="fab fa-github"></i>
                     <svg v-else-if="link.type === 'gplay'" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"  fill="currentColor"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
                     <svg v-else xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>

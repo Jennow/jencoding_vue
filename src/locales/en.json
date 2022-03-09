@@ -4,7 +4,7 @@
   "maincopy": "I am a Software Developer from Hamburg, Germany.<br>Nice to meet you!",
   "description": {
     "header": "I develop websites and apps",
-    "paragraph": "This little webpage was created using vue.js. <br><br><b>Skills</b><br>REST APIs<br>Frontend & Backend<br>Progressive Web Apps<br>Wordpress<br>E-Commerce<br>Games, AR, VR(Unity3D)<br><br><b>Languages</b><br>PHP7<br>JavaScript(Angular, React, Vue)<br>SQL(Postgres, MySql)<br><br>"
+    "paragraph": "This webpage was created using Vue.js. <br><br><b>Skills</b><br>REST APIs<br>Frontend & Backend<br>Progressive Web Apps<br>E-Commerce<br><br><b>Languages</b><br>PHP7<br>JavaScript(Vue, React Native)<br>SQL(Postgres, MySql)<br><br>"
   },
   "contact": {
     "header": "Contact",

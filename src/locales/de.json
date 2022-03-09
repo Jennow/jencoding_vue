@@ -4,7 +4,7 @@
   "maincopy": "Ich bin Software Entwicklerin aus Hamburg. <br>Schön dass Sie da sind.",
   "description": {
     "header": "Ich entwickle Websites und Apps",
-    "paragraph": "So ist beispielsweise diese kleine Website mit vue.js entstanden.<br><br><b>Skills</b><br>REST APIs<br>Frontend & Backend<br>Progressive Web Apps<br>Wordpress<br>E-Commerce<br>Games, AR, VR(Unity3D)<br><br><b>Sprachen</b><br>PHP7<br>JavaScript(Angular, React, Vue)<br>SQL(Postgres, MySql)<br><br>"
+    "paragraph": "So ist beispielsweise diese Website mit Vue.js entstanden.<br><br><b>Skills</b><br>REST APIs<br>Frontend & Backend<br>Progressive Web Apps<br>E-Commerce<br><br><b>Sprachen</b><br>PHP7<br>JavaScript(Vue, React Native)<br>SQL(Postgres, MySql)<br><br>"
   },
   "contact": {
     "header": "Kontakt",

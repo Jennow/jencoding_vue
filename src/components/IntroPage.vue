@@ -3,8 +3,8 @@
   <div class="container">
     <div class="content">
       <p class="pretext">{{ $t('pretext') }}</p>
-      <h1 v-scrollanimation>{{ $t("h1") }}</h1>
-      <p class="subheader"  v-scrollanimation v-html="$t('maincopy')"></p>
+      <h1>{{ $t("h1") }}</h1>
+      <p class="subheader" v-html="$t('maincopy')"></p>
       <div class="background"/>
     </div>
   </div>
