@@ -140,7 +140,6 @@ export default {
 .timeline a {
     display: block;
     cursor: pointer;
-    text-align: center;
 }
 
 .timeline a:hover, .timeline a.active {
@@ -175,6 +174,7 @@ export default {
     font-size: 0.8em;
     padding: 10px;
     border-bottom: 1px solid var( --font-color-transparent);
+    text-align: center;
   }
 
   .timeline a:hover, .timeline a.active {

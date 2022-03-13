@@ -6,6 +6,11 @@
   <CVPage></CVPage>
   <WorkPage></WorkPage>
   <ContactPage></ContactPage>
+  <div class="footer-links">
+    <a :title="link.name" target="_blank" v-for="link in links" :key="link" :href="link.url">
+      <i :class="link.symbol"></i>
+    </a>
+  </div>
 </template>
 
 <script>
@@ -34,6 +39,33 @@ export default {
     return {
       darkMode: false,
       loading: true,
+      links: [
+        {
+          name: 'GitHub',
+          symbol: 'fab fa-github',
+          url: 'https://github.com/Jennow',
+        },
+        {
+          name: 'Xing',
+          symbol: 'fab fa-xing',
+          url: 'https://www.xing.com/profile/Jenifer_Prochnow',
+        },
+        {
+          name: 'LinkedIn',
+          symbol: 'fab fa-linkedin-in',
+          url: 'https://www.linkedin.com/in/jenifer-prochnow-787539223/',
+        },
+        {
+          name: 'Instagram',
+          symbol: 'fab fa-instagram',
+          url: 'https://www.instagram.com/jeniprochnow/',
+        },
+        {
+          name: 'PDF Download',
+          symbol: 'fas fa-file-pdf',
+          url: require("@/assets/pdf/Lebenslauf__Jenifer_Prochnow.pdf"),
+        },
+      ]
     }
   },
   mounted() {
@@ -81,9 +113,7 @@ export default {
 @import './assets/styles/variables.css';
 </style>
 
-
 <style>
-
 * {
   z-index: 1;
 }
@@ -193,7 +223,7 @@ p {
   right: 0;
   position: absolute;
   z-index: -1;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background-position: 90% center;
   background-size: contain;
@@ -217,6 +247,24 @@ p {
   transition: all 1s ease-out;
 }
 
+.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  color: var(--font-color);
+  font-size: 2rem;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
 @media screen and (min-width: 790px) {
   .glass {
       padding: 20px;
@@ -226,6 +274,17 @@ p {
       backdrop-filter: blur(5px);
       -webkit-backdrop-filter: blur(5px);
   }
+}
+
+@media screen and (min-width: 1350px) {
+
+  .footer-links {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    flex-direction: column;
+  }
+
 }
 
 .mobile-glass {
