@@ -1,5 +1,5 @@
 <template>
-  <div class="page">
+  <div class="page project-page">
     <div class="container">
       <div class="content">
         <h2 v-scrollanimation>{{ $t("work.header") }}</h2>
@@ -111,6 +111,10 @@ export default {
 </script>
 
 <style scoped>
+.project-page {
+    margin-top: 20vh;
+}
+
 @media screen and (min-width: 790px){
 
   .projects {

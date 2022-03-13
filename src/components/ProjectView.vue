@@ -1,12 +1,10 @@
 <template>
-
-    <div class="project">
-        <div  class="text">
+    <div  v-scrollanimation  class="project">
+        <div v-scrollanimation class="text">
             <h3>
                 {{ project.title }}
             </h3>
-
-            <p v-scrollanimation class="glass">
+            <p class="glass">
                 {{ $t('work.projects.' + project.identifier + '.short') }}
             </p>
             <span class="tags">
@@ -69,15 +67,14 @@ export default {
 
 .links {
     margin-top: 20px;
- }
+}
 
  .link {
-    margin-right: 15px;
+    margin-right: 20px;
     color: inherit;
     transition: opacity 0.2s ease-in-out;
     position: relative;
     text-decoration: none;
-
  }
 
  .link .hint {
@@ -98,15 +95,23 @@ export default {
  }
 
  .links svg {
-    width: 2.2em;
-    height: 2.2em;
-    margin: 0.2em;
-
+    width: 2em;
+    height: 2em;
  }
+
+
 @media screen and (max-width: 790px){
     .project {
         box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.2);
         border-radius: 8px;
+    }
+
+    .project .before-enter {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    .project .enter {
+        transform: translateX(0px) translateY(0);
     }
 
     .project .text {
@@ -132,16 +137,15 @@ export default {
         object-fit: cover;
         object-position: top;
         opacity: 0.1;
+        border-radius: 8px;
     }
 }
 
 @media screen and (min-width: 790px){
-
-
     .project {
-        padding: 40px 0 20vh;
-
+        padding: 40px 0 10vh;
     }
+
     .project .text {
         position: absolute;
         top: 0;
@@ -156,7 +160,7 @@ export default {
         width: 100%;
         margin: auto;
         display: block;
-        max-height: 40vh;
+        height: 40vh;
         object-fit: cover;
         object-position: top;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -167,15 +171,16 @@ export default {
         opacity: 1;
     }
 
-    .glass {
-        padding: 20px;
-        /* background: rgba(0, 0, 0, 0.3); */
-        color: #000;
-        background: rgba(255, 255, 255, 0.5);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
+    .project .before-enter {
+        transform: translateX(-100px) translateY(0px);
+    }
+
+    .project:nth-child(2) .before-enter {
+        transform: translateX(100px) translateY(0px);
+    }
+
+    .project .enter {
+        transform: translateX(0px) translateY(0);
     }
 
     .project:nth-child(2) .img {
@@ -188,78 +193,6 @@ export default {
         text-align: right;
     }    
 }
-/* 
-.project {
-  height: 50vw;
-  max-height: 400px;
-  text-decoration: none;
-  transition: ease opacity 0.4s;
-  opacity: 1;
-  border-radius: 3px;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.29);
-  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.29);
-  display: block;
-  position: relative;
-  margin-bottom: 2rem;
-}
-
-.project .background-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  position: absolute;
-  background-size: cover;
-}
-
-.project:hover .background-img {
-  opacity: 0.3;
-  transition: ease opacity 0.4s;
-}
-
-.project h4 {
-  font-size: 2rem;
-  line-height: 1.8rem;
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-  margin: 20px auto;
-  font-weight: 100;
-  width: fit-content;
-  border-radius: 50px;
-  transition: ease all 0.4s;
-  background-color: var(--primary-color);
-  color: #fff;
-  opacity: 1;
-  mix-blend-mode: darken;
-  box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 20px,
-              rgb(50 50 93 / 25%) 0px 0px 100px 0px,
-              rgb(0 0 0 / 30%) 0px 10px 10px 0px  
-}
-
-.project:hover h4 {
-  -webkit-box-shadow: 0px 0px 20px 0px var(--background-color);
-  box-shadow: 0px 0px 20px 0px var(--background-color);
-  transition: ease all 0.4s;
-
-}
-
-
-
-.project:hover .tags {
-  opacity: 1;
-  transition: ease all 0.4s;
-}
-
-.tag {
-  display: inline-block;
-  background-color: var(--secondary-color);
-  -webkit-box-shadow: 0px 0px 20px 0px var(--background-color);
-  box-shadow: 0px 0px 20px 0px var(--background-color);
-  padding: 5px 15px;
-  color: var(--background-color);
-  margin: 5px;
-  border-radius: 50px;
-} */
 </style>
 
 

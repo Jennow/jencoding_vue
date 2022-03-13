@@ -3,6 +3,7 @@
   <Header :darkmode="darkMode" @switch-color="switchColor" @switch-language="switchLanguage"></Header>
   <IntroPage></IntroPage>
   <DescriptionPage></DescriptionPage>
+  <CVPage></CVPage>
   <WorkPage></WorkPage>
   <ContactPage></ContactPage>
 </template>
@@ -14,6 +15,7 @@ import DescriptionPage from "./components/DescriptionPage";
 import Header from './components/Header.vue'
 import IntroPage from "./components/IntroPage";
 import WorkPage from "./components/WorkPage";
+import CVPage from "./components/CVPage.vue";
 
 import LoadingScreen from "./components/LoadingScreen";
 
@@ -23,6 +25,7 @@ export default {
     DescriptionPage,
     ContactPage,
     IntroPage,
+    CVPage,
     Header,
     LoadingScreen,
     WorkPage
@@ -211,5 +214,27 @@ p {
 .enter {
   opacity: 1;
   transform: translateY(0px);
+  transition: all 1s ease-out;
 }
+
+@media screen and (min-width: 790px) {
+  .glass {
+      padding: 20px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 8px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+  }
+}
+
+.mobile-glass {
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
 </style>

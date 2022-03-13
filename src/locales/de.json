@@ -18,7 +18,7 @@
     "errorMessage": "Bitte kontaktieren Sie mich direkt unter folgender Adresse: hey[at]jencoding.com"
   },
   "work": {
-    "header": "Arbeiten",
+    "header": "Projekte",
     "paragraph": "Hier sind Beipiele meiner letzten Arbeiten.",
     "projects": {
       "pawpal": {
@@ -29,6 +29,32 @@
       },
       "bluerizon": {
         "short": "Ein Wordpress eCommerce Shop mit über 1000 Produktvarianten, den ich eingerichtet habe. Für diesen Shop habe ich eigene Gutenberg Blöcke entwickelt."
+      }
+    }
+  },
+  "cv": {
+    "header": "Lebenslauf",
+    "paragraph": "Hier ist eine Übersicht meiner bisheigen beruflichen Laufbahn",
+    "jobs": {
+      "engineer": {
+        "title": "Software Engineer",
+        "timeline": "09/2021 - jetzt",
+        "description": "Schreiben und Testen von performantem, wartbarem Code im Backend und im Frontend Bereich, beispielsweise Umzug des Backend Systems in eine REST API, Umbau von Reservierungslogik und Implementierung einer neuen Zahlmethode. </br></br>Abstimmung mit multi-disziplinären Teams aus Entwicklern, Testern und Product Ownern.</br></br>Technische Konzeption von neuen Features sowie Machbarkeitsanalyse für Integration neuer Technologien."
+      },
+      "junior": {
+        "title": "Junior Developer",
+        "timeline": "09/2019 - 08/2021",
+        "description": "Schreiben und Testen von performantem, wartbarem Code im Backend und im Frontend Bereich, beispielsweise Kundenprofil und Erstattungs Feature. </br></br>Abstimmung mit multi-disziplinären Teams aus Entwicklern, Testern und Product Ownern."
+      },
+      "student2": {
+        "title": "Werkstudentin Web Entwicklung",
+        "timeline": "02/2019 - 08/2019",
+        "description": "Erstellen von abgekapselten Microsites und Microservices auf Nachfrage von Kunden. Beispiele: Marketing OnePager, Produktcode Scan Microsite. </br></br>Anpassen von personalisiertem CSS und JavaScript für einzelne Mandanten."
+      },
+      "student1": {
+        "title": "Werkstudentin Web Entwicklung",
+        "timeline": "09/2017 - 01/2019",
+        "description": "Entwicklung kleinerer Frontend Features und Anpassung von Responsive Design für unterschiedliche B2B Kunden. </br></br>Übertragung einer fertigen IOS App in eine Android App."
       }
     }
   }

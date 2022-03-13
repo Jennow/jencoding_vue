@@ -8,6 +8,7 @@
     --background-color: #eeeeee;
     /* --background-gradient: linear-gradient(to right, #fff, #eee); */
     --font-color: #111111;
+    --font-color-transparent: rgba(17, 17, 17, 0.2);
 }
 
 [data-theme="dark-mode"] {
@@ -16,6 +17,7 @@
     --tertiary-color: #A8D5BAFF;
     --lowkey-color: #bbb;
     --background-color: #1e003a;
-    --font-color: #ffffff;
+    --font-color: rgb(255, 255, 255);
+    --font-color-transparent: rgba(255, 255, 255, 0.2);
     --background-gradient: linear-gradient(to right, #bb5e71, #1c2866);
 }

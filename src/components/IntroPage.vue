@@ -2,9 +2,11 @@
 <div class="page">
   <div class="container">
     <div class="content">
-      <p class="pretext">{{ $t('pretext') }}</p>
-      <h1>{{ $t("h1") }}</h1>
-      <p class="subheader" v-html="$t('maincopy')"></p>
+      <div v-scrollanimation>
+        <p class="pretext">{{ $t('pretext') }}</p>
+        <h1>{{ $t("h1") }}</h1>
+        <p class="subheader" v-html="$t('maincopy')"></p>
+      </div>
       <div class="background"/>
     </div>
   </div>
