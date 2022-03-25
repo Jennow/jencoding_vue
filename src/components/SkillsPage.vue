@@ -187,12 +187,25 @@ export default {
     color: var(--primary-color);
   }
 
+  .frontend .skill {
+    border-color: var(--primary-color);
+  }
+
   .backend svg{
     color: var(--secondary-color);
   }
 
+  .backend .skill {
+    border-color: var(--secondary-color);
+  }
+
+
   .tools svg {
     color: var(--tertiary-color);
+  }
+
+  .tools .skill {
+    border-color: var(--tertiary-color);
   }
 
   @media (max-width: 970px) {
