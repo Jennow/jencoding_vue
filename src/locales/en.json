@@ -33,7 +33,7 @@
     }
   },
   "cv": {
-    "header": "Curriculum Vitae",
+    "header": "Resume",
     "paragraph": "Here you can see an overview of my work experience.",
     "jobs": {
       "engineer": {
@@ -57,5 +57,9 @@
         "description": "Development of small frontend features and adjustment of responsie design for various B2B clients.</br></br>Transfer of an IOS App into a working Android App."
       }
     }
+  },
+  "skills": {
+    "header": "Skills",
+    "paragraph": "Technical competencies in many areas with a key proficiency in Full Stack Web Deveopment."
   }
 }

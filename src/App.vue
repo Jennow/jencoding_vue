@@ -2,9 +2,9 @@
   <LoadingScreen :loading="loading"></LoadingScreen>
   <Header :darkmode="darkMode" @switch-color="switchColor" @switch-language="switchLanguage"></Header>
   <IntroPage></IntroPage>
-  <DescriptionPage></DescriptionPage>
-  <CVPage></CVPage>
   <WorkPage></WorkPage>
+  <CVPage></CVPage>
+  <skills-page/>
   <ContactPage></ContactPage>
   <div class="footer-links">
     <a :title="link.name" target="_blank" v-for="link in links" :key="link" :href="link.url">
@@ -16,7 +16,7 @@
 <script>
 
 import ContactPage from "./components/ContactPage";
-import DescriptionPage from "./components/DescriptionPage";
+import SkillsPage from "./components/SkillsPage";
 import Header from './components/Header.vue'
 import IntroPage from "./components/IntroPage";
 import WorkPage from "./components/WorkPage";
@@ -27,13 +27,13 @@ import LoadingScreen from "./components/LoadingScreen";
 export default {
   name: 'App',
   components: {
-    DescriptionPage,
     ContactPage,
     IntroPage,
     CVPage,
     Header,
     LoadingScreen,
-    WorkPage
+    WorkPage,
+    SkillsPage
   },
   data() {
     return {

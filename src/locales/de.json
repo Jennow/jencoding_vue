@@ -57,5 +57,9 @@
         "description": "Entwicklung kleinerer Frontend Features und Anpassung von Responsive Design für unterschiedliche B2B Kunden. </br></br>Übertragung einer fertigen IOS App in eine Android App."
       }
     }
+  },
+  "skills": {
+    "header": "Skills",
+    "paragraph": "Technische Kompetenzen in vielen Bereichen mit Fokus auf FullStack Web Entwicklung."
   }
 }
