@@ -199,7 +199,6 @@ export default {
     border-color: var(--secondary-color);
   }
 
-
   .tools svg {
     color: var(--tertiary-color);
   }

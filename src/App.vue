@@ -266,6 +266,9 @@ p {
 }
 
 @media screen and (min-width: 790px) {
+  .content {
+    width: calc(100% - 40px);
+  }
   .glass {
       padding: 20px;
       background: rgba(255, 255, 255, 0.15);

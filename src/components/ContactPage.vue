@@ -88,8 +88,6 @@ export default {
 <style scoped>
   .container .background {
     background-image: url('~@/assets/floral_pattern.webp');
-    background-position: 10% center;
-
   }
 
   @media only screen and (min-width: 560px) {
