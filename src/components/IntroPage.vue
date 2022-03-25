@@ -23,11 +23,11 @@ export default {
 
 <style scoped>
   .container .profile.fg {
-    background-image: url('~@/assets/jeni_t.png');
+    background-image: url('~@/assets/jeni_t.webp');
  }
 
   .container .profile.bg {
-    background-image: url('~@/assets/jeni.jpeg');
+    background-image: url('~@/assets/jeni.webp');
     opacity: 0.3;
   }
 
