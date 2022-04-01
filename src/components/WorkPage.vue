@@ -32,7 +32,7 @@ export default {
             'Node.js',
             'Express.js',
           ],
-          image: 'chat.png',
+          image: 'pawpal.png',
           links: [
             {
               type: 'git',
@@ -61,7 +61,7 @@ export default {
             'Express.js',
             'Cheerio',
           ],
-          image: 'coworking-explorer_home.png',
+          image: 'coworking-explorer.png',
           links: [
             {
               type: 'git',
