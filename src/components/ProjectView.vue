@@ -1,5 +1,5 @@
 <template>
-    <div  v-scrollanimation  class="project">
+    <div v-scrollanimation class="project" >
         <div v-scrollanimation class="text">
             <h3>
                 {{ project.title }}
@@ -22,9 +22,9 @@
                 </a>
             </div>
         </div>
-        <div class="img">
+        <a :href="project.mainUrl" target="_blank" class="img">
             <img :src="require('@/assets/' + project.image )"/>
-        </div>
+        </a>
     </div>
 </template>
 
@@ -154,6 +154,7 @@ export default {
     .project .img {
         width: 60%;
         margin-left: auto;
+        display: block;
     }
 
     .project .img img {

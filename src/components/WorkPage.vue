@@ -26,6 +26,7 @@ export default {
         {
           title: 'PawPal',
           identifier: 'pawpal',
+          mainUrl: 'https://github.com/Jennow/paw_pal',
           tags: [
             'Vue',
             'Ionic',
@@ -53,6 +54,7 @@ export default {
         {
           title: 'Coworking Explorer',
           identifier: 'cwe',
+          mainUrl: 'https://play.google.com/store/apps/details?id=com.jencoding.coworking_explorer.twa',
           tags: [
             'Vue',
             'Google Maps API',
@@ -71,7 +73,7 @@ export default {
             {
               type: 'git',
               hint: 'API',
-              url: 'https://github.com/Jennow/coworking-explorer-map-api'
+              url: 'https://github.com/Jennow/coworking-explorer-api'
             },
 
             {
@@ -87,6 +89,7 @@ export default {
         {
           title: 'bluerizon',
           identifier: 'bluerizon',
+          mainUrl: 'https://blue-rizon.com',
           tags: [
             'Woocommerce',
             'eCommerce',
