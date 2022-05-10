@@ -49,6 +49,7 @@ export default {
 
 .project .img {
     width: 100%;
+    display: block;
 }
 
 .project h3 {

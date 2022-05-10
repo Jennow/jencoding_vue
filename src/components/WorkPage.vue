@@ -45,10 +45,10 @@ export default {
               hint: 'API',
               url: 'https://github.com/Jennow/paw_pal_api'
             },
-            // {
-            //   type: 'web',
-            //   url: 'gibhub.com'
-            // },
+            {
+              type: 'gplay',
+              url: 'https://play.google.com/store/apps/details?id=com.jencoding.paw_pal'
+            },
           ]
         },
         {
