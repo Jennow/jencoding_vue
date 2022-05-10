@@ -177,7 +177,7 @@ export default {
         transform: translateX(-100px) translateY(0px);
     }
 
-    .project:nth-child(2) .before-enter {
+    .project:nth-child(2n) .before-enter {
         transform: translateX(100px) translateY(0px);
     }
 
@@ -185,12 +185,12 @@ export default {
         transform: translateX(0px) translateY(0);
     }
 
-    .project:nth-child(2) .img {
+    .project:nth-child(2n) .img {
         margin-right: auto;
         margin-left: 0;
     }    
 
-    .project:nth-child(2) .text {
+    .project:nth-child(2n) .text {
         right: 0;
         text-align: right;
     }    
