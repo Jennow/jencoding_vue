@@ -29,6 +29,9 @@
       },
       "bluerizon": {
         "short": "Ein Wordpress eCommerce Shop mit über 1000 Produktvarianten, den ich eingerichtet habe. Für diesen Shop habe ich eigene Gutenberg Blöcke entwickelt."
+      },
+      "asset_tracker": {
+        "short": "In Arbeit: Ein Dashboard zur Übersicht über verschiedene Assets. Besteht aus API und Frontend Teil und enthält Login über Json Webtoken. Bezieht aktuelle Marktdaten über eine API und berechnet daraus den aktuellen Wert der persönlichen Investitionen ohne sich mit der Wallet oder dem Aktiendepot verbinden zu müssen."
       }
     }
   },

@@ -23,6 +23,31 @@ export default {
   data: function () {
     return {
       projects: [
+          {
+          title: 'Asset Tracker',
+          identifier: 'asset_tracker',
+          mainUrl: 'https://github.com/Jennow/asset_tracker',
+          tags: [
+            'Angular',
+            'Typescript',
+            'Tailwind',
+            'Node.js',
+            'Express.js',
+          ],
+          image: 'asset_tracker.webp',
+          links: [
+            {
+              type: 'git',
+              hint: 'App',
+              url: 'https://github.com/Jennow/asset_tracker'
+            },
+            {
+              type: 'git',
+              hint: 'API',
+              url: 'https://github.com/Jennow/asset_tracker_api'
+            }
+          ]
+        },
         {
           title: 'PawPal',
           identifier: 'pawpal',

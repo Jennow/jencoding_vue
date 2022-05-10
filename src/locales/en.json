@@ -29,6 +29,9 @@
       },
       "bluerizon": {
         "short": "A Wordpress eCommerce Shop with over 1000 different product variaties. I also built custom Gutenberg Blocks for this shop."
+      },
+      "asset_tracker": {
+        "short": "In Progress: A dashboard to have an overview over different assets. Consists of API and Frontend part and contains a login through Json Web Token. Gets actual market data from a third party API and calculates the current portfolio value without needing to connect to private wallets or stock accounts."
       }
     }
   },
