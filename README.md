@@ -1,4 +1,4 @@
-# jencoding
+# jeniferprochnow
 
 ## Project setup
 ```

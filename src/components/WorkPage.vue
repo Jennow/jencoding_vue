@@ -107,7 +107,7 @@ export default {
             },
             {
               type: 'web',
-              url: 'https://coworking-explorer.jencoding.com'
+              url: 'https://coworking-explorer.jeniferprochnow.com'
             },
           ],
         },
